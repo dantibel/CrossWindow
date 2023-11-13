@@ -146,6 +146,7 @@ class Window
 
     LRESULT WindowProc(UINT msg, WPARAM wparam, LPARAM lparam);
 
+public:
     // This window handle
     HWND hwnd = nullptr;
 
