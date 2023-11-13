@@ -180,7 +180,7 @@ endfunction()
 
 # Finalize Library
 add_library(
-    ${PROJECT_NAME}
+    ${PROJECT_NAME} STATIC
     ${FILE_SOURCES}
     )
 
